@@ -1,19 +1,19 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/stenic/mk-inject/releases/download/1.0.0/mk-inject_windows_386.zip",
+            "url": "https://github.com/stenic/mk-inject/releases/download/1.0.1/mk-inject_windows_386.zip",
             "bin": [
                 "mk-inject.exe"
             ],
-            "hash": "e12811204d2b52ea3e788c4ea2de864b9f973a561d9ecb1ba283b82cf23afae0"
+            "hash": "39cc32e39061f84220ff1417b93a2185791d8c0629733f5380c69e55cb11acf3"
         },
         "64bit": {
-            "url": "https://github.com/stenic/mk-inject/releases/download/1.0.0/mk-inject_windows_amd64.zip",
+            "url": "https://github.com/stenic/mk-inject/releases/download/1.0.1/mk-inject_windows_amd64.zip",
             "bin": [
                 "mk-inject.exe"
             ],
-            "hash": "7c13e48fcc20e5182e258e63ea42851dcfed229de7fe1e8eb699188d4ffb7204"
+            "hash": "4cfdd1aafbbfc3ba358f05331b293dbd0c7e114c103d1ad1bfdce03dab517e7c"
         }
     },
     "homepage": "{{ .Env.PROJECT_HOMEPAGE }}",
