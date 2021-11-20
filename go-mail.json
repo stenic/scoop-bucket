@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/stenic/go-mail/releases/download/1.0.0/go-mail_windows_386.zip",
+            "bin": [
+                "go-mail.exe"
+            ],
+            "hash": "f6db6efd908c3cd7027c48589867a204943d7265b1510c564e550769f59c1775"
+        },
+        "64bit": {
+            "url": "https://github.com/stenic/go-mail/releases/download/1.0.0/go-mail_windows_amd64.zip",
+            "bin": [
+                "go-mail.exe"
+            ],
+            "hash": "4cc8bc410f06a4e54efbccb226f956d2a7b1f6a8e8cd2824a16f3e9e8dcff503"
+        }
+    },
+    "homepage": "{{ .Env.PROJECT_HOMEPAGE }}",
+    "license": "{{ .Env.LICENSE }}",
+    "description": "{{ .Env.PROJECT_DESCRIPTION }}"
+}
