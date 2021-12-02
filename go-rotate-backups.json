@@ -1,19 +1,19 @@
 {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/stenic/go-rotate-backups/releases/download/1.1.1/go-rotate-backups_windows_386.zip",
+            "url": "https://github.com/stenic/go-rotate-backups/releases/download/1.1.2/go-rotate-backups_windows_386.zip",
             "bin": [
                 "go-rotate-backups.exe"
             ],
-            "hash": "c5e37ad7961de571e295a101353ab5f29fe593f0ae6d7407bc79a8cce7538ccc"
+            "hash": "b3881da0741bf1412622667e1b261df2c411fa01cba3808ebfdedfb92f8dd428"
         },
         "64bit": {
-            "url": "https://github.com/stenic/go-rotate-backups/releases/download/1.1.1/go-rotate-backups_windows_amd64.zip",
+            "url": "https://github.com/stenic/go-rotate-backups/releases/download/1.1.2/go-rotate-backups_windows_amd64.zip",
             "bin": [
                 "go-rotate-backups.exe"
             ],
-            "hash": "27bebdf29e97a741416a487f1ba38f88eaca1d297ffb140a36e3fd9f0f624abc"
+            "hash": "eceeb98c12c7f3905a40ab481f3fb340148f63d7768d06a965e5b26ef9c60408"
         }
     },
     "homepage": "{{ .Env.PROJECT_HOMEPAGE }}",
