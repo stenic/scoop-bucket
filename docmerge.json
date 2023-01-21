@@ -1,19 +1,19 @@
 {
-    "version": "1.0.3",
+    "version": "1.1.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/stenic/docmerge/releases/download/1.0.3/docmerge_windows_386.zip",
+            "url": "https://github.com/stenic/docmerge/releases/download/1.1.0/docmerge_windows_386.zip",
             "bin": [
                 "docmerge.exe"
             ],
-            "hash": "2056e32661b244983b64dcbdbc2203d68e7aa260dad7d0e8ce9f19b2e587732d"
+            "hash": "3e088748090ed677ef8295ab32b6be4a4a832b17cad37a4705b89c5574e978df"
         },
         "64bit": {
-            "url": "https://github.com/stenic/docmerge/releases/download/1.0.3/docmerge_windows_amd64.zip",
+            "url": "https://github.com/stenic/docmerge/releases/download/1.1.0/docmerge_windows_amd64.zip",
             "bin": [
                 "docmerge.exe"
             ],
-            "hash": "350e5d501e1db3ba8e788271b7add822dd200ffc4c3eccbf3b461009e27996dd"
+            "hash": "38ae06ce934a85592408eecd0e57fd0ba9b9e48e8cbf6ab1c8904b8a72b68cd0"
         }
     },
     "homepage": "{{ .Env.PROJECT_HOMEPAGE }}",
